@@ -63,6 +63,7 @@ int main(void){
 	
 	printf("\n\nThe smallest positive number that is evenly divisible by all of the numbers from 1 to %d : %.0f",number,result);
 	
+	free(primeNumber);
 	return 0;
 }
 
